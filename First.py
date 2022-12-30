@@ -17,3 +17,10 @@ elif Num % 2 == 1:
     print("Your number is odd")
 
 #Q4
+Length = int(input("Enter length: "))
+
+Volume = Length**3
+SurfaceArea = (6*Length)**2
+
+print("The volume is", Volume)
+print("The Surface Area is", SurfaceArea)
